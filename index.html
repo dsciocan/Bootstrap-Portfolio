@@ -6,120 +6,124 @@
     <title>Bootstrap Portfolio</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <!--Navigation-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Daniela Ciocan</a>
+          <h2>Daniela Ciocan</h2>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+        <div class="nav">
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="#">Work</a>
-              <a class="nav-link" href="#">Skills</a>
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#work">Work</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#about">About Me</a>
             </div>
           </div>
         </div>
+        </div>
     </nav>
 <!--Hero-->
-<div class="jumbotron" id="hero">
-    <h1 class="display-4">Hi there!</h1>
-    <p class="lead">I'm Daniela and this is my portfolio page, where you can find out more about me and my work.  </p>
-    <img src="images/self-pic.jpg" height="400" width="350"/>
-    <p>For enqiries see the contact section.</p>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Contact me</a>
-    </p>
-</div>
+    <div class="jumbotron" id="hero">
+        <img src="images/self-pic.jpg" height="300" width="250"/>
+        <div class="jumbotron-text">
+            <h2 class="display-4">Hi there!</h2>
+            <p>I'm Daniela and this is my portfolio page, where you can find out more about me and my work.  </p>
+            <p>For enqiries see the contact section.</p>
+            <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#about" role="button">Contact me</a>
+        </div>
+
+        </p>
+    </div>
 <!--Work-->
-<div class="container" id="work">
-    <h2>Work</h2>
-    <div class="row">
-        <div class="card" style="width: 18rem;">
-            <a href="#">
-                <img class="card-img-top" src="images/project1.jpg" alt="Card image cap">
-            </a>
-            <div class="card-body">
+    <div class="container" id="work">
+        <h2>Work</h2>
+        <div class="row" id="work-grid">
+            <div class="card col-lg-7 col-sm-12 project1" style="width: 18rem;">
+                <a href="#">
+                    <img class="card-img-top" src="images/project1.jpg" alt="Computer screen">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Project title</h5>
+                <p class="card-text">Project Description</p>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-sm-12 project2" style="width: 18rem;">    
+                <a href="#">
+                    <img class="card-img-top" src="images/project2.jpg" height="400" alt="Lights">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Project title</h5>
+                <p class="card-text">Project Description</p>
+                </div>
+            </div>
+            <div class="card col-lg-4 col-sm-12 project3" style="width: 18rem;">
+                <a href="#">
+                    <img class="card-img-top" src="images/project3.jpg" height="250" alt="Person with laptop">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Project title</h5>
+                <p class="card-text">Project Description</p>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-12 project4" style="width: 18rem;">
+                <a href="#">
+                    <img class="card-img-top" src="images/project4.jpg" height="250" alt="Computer keyboard">
+                </a>
+                <div class="card-body">
                 <h5 class="card-title">Project title</h5>
-            <p class="card-text">Project Description</p>
+                <p class="card-text">Project Description</p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">    
-            <a href="#">
-                <img class="card-img-top" src="images/project2.jpg" alt="Card image cap">
-            </a>
-            <div class="card-body">
+            <div class="card col-lg-4 col-sm-12 project5" style="width: 18rem;">
+                <a href="#">
+                    <img class="card-img-top" src="images/project5.jpg" height="250" alt="Computer component">
+                </a>
+                <div class="card-body">
                 <h5 class="card-title">Project title</h5>
-            <p class="card-text">Project Description</p>
+                <p class="card-text">Project Description</p>
+                </div>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <a href="#">
-                <img class="card-img-top" src="images/project3.jpg" alt="Card image cap">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title">Project title</h5>
-            <p class="card-text">Project Description</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <a href="#">
-                <img class="card-img-top" src="images/project4.jpg" alt="Card image cap">
-            </a>
-            <div class="card-body">
-            <h5 class="card-title">Project title</h5>
-            <p class="card-text">Project Description</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <a href="#">
-                <img class="card-img-top" src="images/project5.jpg" alt="Card image cap">
-            </a>
-            <div class="card-body">
-            <h5 class="card-title">Project title</h5>
-            <p class="card-text">Project Description</p>
-            </div>
     </div>
-</div>
-
-</div>
 <!--Skills-->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-6 col-sm-12" id="skills">
-            <h2>Skills</h2>
-            <ul class="list-group">
-                <li class="list-group-item">HTML</li>
-                <li class="list-group-item">CSS</li>
-                <li class="list-group-item">Javascript</li>
-                <li class="list-group-item">UX/UI</li>
-            </ul>
-        </div>
-        <div class="col-lg-6 col-sm-12" id="about">
-            <h2>About me</h2>
-            <p>Front End Web Development Bootcamp student with a diverse academic background and an aim to constantly learn and improve. Committed to solving problems by combining logic, creativity and efficiency.</p>
-            <h2>Contact me</h2>
-            <a href="mailto:daniela.ciocan137@gmail.com">Email</a>
-            <a href=tel:+447496284065>Mobile</a>
-            <a href="https://github.com/dsciocan"><i class="fa fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/daniela-ciocan-631608267/"><i class="fa fa-linkedin"></i></a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12" id="skills">
+                <h2>Skills</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">HTML</li>
+                    <li class="list-group-item">CSS</li>
+                    <li class="list-group-item">Javascript</li>
+                    <li class="list-group-item">UX/UI</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-sm-12" id="about">
+                <h2>About me</h2>
+                <p>Front End Web Development Bootcamp student with a diverse academic background and an aim to constantly learn and improve. Committed to solving problems by combining logic, creativity and efficiency.</p>
+                <h3>Contact me</h3>
+                <a href="mailto:daniela.ciocan137@gmail.com">Email</a>
+                <a href=tel:+447496284065>Mobile</a>
+                <a href="https://github.com/dsciocan"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/daniela-ciocan-631608267/"><i class="fa fa-linkedin"></i></a>
+            </div>
         </div>
     </div>
-</div>
 <!--Footer-->
-
-<h4>Made with Bootstrap</h4>
-
+<footer>
+    <h5>Made with Bootstrap</h5>
+</footer>
 
  <!-- JavaScript -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

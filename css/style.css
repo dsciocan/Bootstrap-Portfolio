@@ -80,6 +80,7 @@ nav span {
     background-color: rgba(3, 4, 63, 0.9);
     color: rgb(217, 238, 241);
     margin: 10px;
+    font-weight: 500;
 }
 
 #work {
@@ -92,7 +93,7 @@ nav span {
 }
 
 #work h2 {
-    font-size: 35pt;
+    font-size: 30pt;
     color: rgba(3, 4, 63, 0.9);
     border-bottom: solid 5px rgba(3, 4, 63, 0.9);
 }
@@ -102,9 +103,77 @@ nav span {
     margin-left: 30px;
 }
 
+
+#skills {
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#skills h2 {
+    color: rgba(3, 4, 63, 0.9);
+    border-bottom: solid 5px rgba(3, 4, 63, 0.9);
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+
+#skills li {
+    background-color: rgb(217, 238, 241);
+    color: rgba(3, 4, 63, 0.9);
+    text-align: center;
+    font-weight: 600;
+    border: solid 1px rgba(3, 4, 63, 0.9);
+}
+
+#about h2 {
+    color: rgba(3, 4, 63, 0.9);
+    border-bottom: solid 5px rgba(3, 4, 63, 0.9);
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+
+#about {
+    color: rgba(3, 4, 63, 0.9);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#about p {
+    margin-bottom: 30px;
+}
+
+#about h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.links a {
+    margin-right: 10px;
+    border-bottom: solid 1px rgb(3, 4, 63);
+    color: rgb(3, 4, 63);
+    text-decoration: none;
+    font-size: 15pt;
+}
+
+.links a:hover {
+    color: rgb(0, 82, 175);
+}
+
+
 footer {
     background-color: rgb(3, 4, 63);
     color:rgb(217, 238, 241);
     text-align: center;
     padding:20px;
+    
+}
+
+@media only screen and (max-width: 990px) {
+    .project2 {
+        margin-left: 10px;
+    }
 }

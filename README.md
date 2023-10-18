@@ -2,7 +2,7 @@
 
 ## Description
 
-Portfolio page variant made using the bootstrap framework.  The page contains a navbar, a jumbotron, three sections and a footer.
+Portfolio page variant made using the bootstrap framework. The page contains a navbar, a jumbotron, three sections and a footer.
 
 The "work" section contains a grid set up for future projects. 
 
@@ -12,8 +12,12 @@ The "about" section contains a short bio and further contact links.
 
 This page is responsive. 
 
+### Visual 
+
+![Portfolio](images/screencapture-Bootstrap-Portfolio.png)
+
 ## Installation
-No prior installation needed. 
+No installation needed. 
 
 ## Usage
 The page can be accessed through the [following link](https://dsciocan.github.io/Bootstrap-Portfolio).

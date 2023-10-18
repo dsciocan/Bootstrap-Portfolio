@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
   }
+
 body {
     margin: 0;
     padding: 0;
@@ -40,9 +41,6 @@ nav span {
     margin-bottom: 10px;
 }
 
-.navbar-toggle {
-    background-color:rgb(217, 238, 241);
-}
 
 .jumbotron {
     background-image: url("../images/hero.png");

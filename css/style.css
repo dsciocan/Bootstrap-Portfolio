@@ -12,6 +12,8 @@ body {
     
   }
 
+/*Navbar styling*/
+
 .navbar {
     background-color:  rgb(3, 4, 63); 
     color:rgb(3, 4, 63);
@@ -41,6 +43,7 @@ nav span {
     margin-bottom: 10px;
 }
 
+/*Jumbotron styling*/
 
 .jumbotron {
     background-image: url("../images/hero.png");
@@ -78,6 +81,9 @@ nav span {
     box-shadow: 3px 3px 2px rgb(162, 222, 230);
 }
 
+
+/*Work section styling*/
+
 .card {
     background-color: rgba(3, 4, 63, 0.9);
     color: rgb(217, 238, 241);
@@ -86,7 +92,8 @@ nav span {
 }
 
 #work {
-    margin-bottom: 70px;
+    margin-top:40px;
+    margin-bottom: 100px;
 }
 
 #work-grid {
@@ -106,8 +113,10 @@ nav span {
 }
 
 
+/*Skills section styling*/
+
 #skills {
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -127,6 +136,14 @@ nav span {
     border: solid 1px rgba(3, 4, 63, 0.9);
 }
 
+/*About + contact section styling*/
+
+#about {
+    color: rgba(3, 4, 63, 0.9);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 #about h2 {
     color: rgba(3, 4, 63, 0.9);
     border-bottom: solid 5px rgba(3, 4, 63, 0.9);
@@ -134,11 +151,6 @@ nav span {
     margin-bottom: 20px;
 }
 
-#about {
-    color: rgba(3, 4, 63, 0.9);
-    padding-right: 50px;
-    padding-left: 50px;
-}
 #about p {
     margin-bottom: 30px;
 }
@@ -150,7 +162,7 @@ nav span {
 
 .links {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .links a {
@@ -165,6 +177,7 @@ nav span {
     color: rgb(0, 82, 175);
 }
 
+/*Footer styling*/
 
 footer {
     background-color: rgb(3, 4, 63);
@@ -173,6 +186,8 @@ footer {
     padding:20px;
     
 }
+
+/*Media query*/
 
 @media only screen and (max-width: 990px) {
     .project2 {

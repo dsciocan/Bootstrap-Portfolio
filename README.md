@@ -16,7 +16,7 @@ This page is responsive.
 No prior installation needed. 
 
 ## Usage
-The page can be accessed through the [following link](https://dsciocan.github.io/bootstrap-portfolio).
+The page can be accessed through the [following link](https://dsciocan.github.io/Bootstrap-Portfolio).
 
 ## Credits
 HTML templates have been taken from [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/).
